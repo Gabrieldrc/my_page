@@ -86,29 +86,6 @@ nav {
   margin: auto;
 }
 
-/* CodeScreen css */
-.code_screen {
-  background-color: rgb(31, 31, 31);
-  padding-left: 1rem;
-  padding-top: 1rem;
-}
-
-.number_line {
-  color: gray;
-}
-
-.purple_word {
-  color: rgb(168, 60, 168);
-}
-
-.blue_word {
-  color: rgb(116, 219, 253);
-}
-
-.path {
-  color: rgb(187, 76, 25);
-}
-
 /* RenderScreen css */
 .render_screen {
   background-color: lawngreen;

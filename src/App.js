@@ -1,4 +1,5 @@
 import './App.css';
+import CodeScreen from './components/CodeScreen/CodeScreen';
 
 function App() {
   return (
@@ -21,11 +22,7 @@ function App() {
         <div className="content_box">
           <div>asfgadfgsdfg</div>
           <div className="screens_container">
-            <div className="screen code_screen">
-              <div className="code_line">
-                <span className="number_line">1</span>  <span className="purple_word">import</span> <span className="blue_word">React</span> <span className="purple_word">from</span> <span className="path">'react'</span>
-              </div>
-            </div>
+            <CodeScreen />
             <div className="screen render_screen">
 
             </div>
