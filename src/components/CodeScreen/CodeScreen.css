@@ -1,0 +1,11 @@
+/* CodeScreen css */
+.code_screen {
+    background-color: rgb(31, 31, 31);
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+  
+  .number_line {
+    color: gray;
+  }
+ 
