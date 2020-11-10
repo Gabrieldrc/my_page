@@ -1,38 +1,120 @@
 .App {
+  background-color: antiquewhite;
+}
+/* Nav css */
+nav {
+  background-color: #333
+}
+
+.nav_content {
+  display: flex;
+  width: 950px;
+  margin: auto;
+}
+
+.nav_content a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav_content a:hover {
+  border-bottom: 2px solid #ddd;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* BodyContent css */
+.body_content {
+  position: relative;
+  background-color: darkblue;
+  min-height: 512px;
+  color: #ddd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* LeftMenu css */
+.left_menu {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: #ddd;
+  min-height: inherit;
+  width: 150px;
+  margin-left: -140px;
+}
+
+.left_menu:hover {
+  margin-left: 0px;
+}
+
+.left_menu a {
+  width: inherit;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.left_menu a:hover {
+  background-color: #333;
+  color: #ddd;
+}
+
+/* ContentBox css */
+.content_box {
+  width: inherit;
+  min-height: inherit;
+  background-color: ivory;
+}
+
+/* ScreenContainer css  */
+.screens_container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  background-color: lightcoral;
+  height: 500px;
 }
 
-.App-link {
-  color: #61dafb;
+.screen {
+  width: 450px;
+  height: 300px;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* CodeScreen css */
+.code_screen {
+  background-color: rgb(31, 31, 31);
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.number_line {
+  color: gray;
+}
+
+.purple_word {
+  color: rgb(168, 60, 168);
+}
+
+.blue_word {
+  color: rgb(116, 219, 253);
+}
+
+.path {
+  color: rgb(187, 76, 25);
+}
+
+/* RenderScreen css */
+.render_screen {
+  background-color: lawngreen;
+}
+
+footer {
+  background-color: darkmagenta;
+  height: 15px;
 }
