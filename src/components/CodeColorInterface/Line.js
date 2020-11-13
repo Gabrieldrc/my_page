@@ -13,7 +13,7 @@ function Line(props) {
     return blankSpacesComponents;
   };
   return (
-    <div key={"line"+children} style={{display: "inline"}}>
+    <div key={"line_component_"+children} style={{display: "inline"}}>
       <span style={{color: "gray"}}>{children}</span>{spaceFixed(children.toString().length)}
     </div>
   );
