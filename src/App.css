@@ -1,9 +1,9 @@
 .App {
-  background-color: antiquewhite;
+  background-color: #111D2C;
 }
 /* Nav css */
 nav {
-  background-color: #333
+  /* background-color: rgba(43, 138, 255, 0.2) */
 }
 
 .nav_content {
@@ -13,20 +13,26 @@ nav {
 }
 
 .nav_content a {
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
+  transition: border-left 100ms ease-in,
+    border-bottom 100ms ease-in,
+    background-color 200ms ease-in-out;
 }
 
 .nav_content a:hover {
-  border-bottom: 2px solid #ddd;
+  color: rgb(192, 235, 255);
+  background-color: rgba(0, 112, 163, 0.5);
+  border-bottom: 2px solid rgb(0, 174, 255);
+  border-left: 2px solid rgb(0, 174, 255);
 }
 
 /* BodyContent css */
 .body_content {
   position: relative;
-  background-color: darkblue;
+  /* background-color: darkblue; */
   min-height: 512px;
   color: #ddd;
 }
@@ -41,7 +47,7 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-  background-color: #ddd;
+  /* background-color: #ddd; */
   min-height: inherit;
   width: 150px;
   margin-left: -140px;
@@ -60,7 +66,7 @@ nav {
 }
 
 .left_menu a:hover {
-  background-color: #333;
+  /* background-color: #333; */
   color: #ddd;
 }
 
@@ -68,7 +74,7 @@ nav {
 .content_box {
   width: inherit;
   min-height: inherit;
-  background-color: ivory;
+  /* background-color: ivory; */
 }
 
 /* ScreenContainer css  */
@@ -76,7 +82,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   height: 500px;
 }
 
