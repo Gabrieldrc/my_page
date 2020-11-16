@@ -13,23 +13,18 @@ function App() {
       <div className="App">
         <nav>
           <div className="nav_content">
-            <ul>
-              <a href="/" className="nav_link" key="nav_link_aboutme">About Me</a>
-              <a href="/" className="nav_link" key="nav_link_fontend">Front-End</a>
-              <a href="/" className="nav_link" key="nav_link_backend">Back-End</a>
-            </ul>
+            <TerminalPath />
           </div>
         </nav>
         <Switch>
           <Route path="/">
             <div className="body_content">
-              <div className="left_menu" id="left_menu">
+              {/* <div className="left_menu" id="left_menu">
                 <a href="/a" className="nav_link" key="nav_link_aboutme">About Me</a>
                 <a href="/" className="nav_link" key="nav_link_fontend">Front-End</a>
                 <a href="/" className="nav_link" key="nav_link_backend">Back-End</a>
-              </div>
+              </div> */}
               <div className="content_box">
-                <TerminalPath />
                 <div>
                   <p>Welcome.</p>
                   <p>This is your terminal, just select where you want to go.</p>
