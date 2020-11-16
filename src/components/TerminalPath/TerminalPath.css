@@ -10,6 +10,7 @@
 }
 
 .terminal_path .nav_menu p{
+  color: white;
   cursor: pointer;
   display: inline;
   transition: border-bottom 50ms ease-in-out,
@@ -46,13 +47,13 @@
   transition: background-color 0.25s ease-in-out;
 }
 
-/* .nav_menu .nav_dropdown_content .nav_link:hover {
+.nav_menu .nav_dropdown_content .nav_link:hover {
   color:  white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  background-color: tomato;
-} */
+  background-color: blue;
+}
 
 .nav_menu .nav_dropdown_content .nav_link:focus {
   color:  black;

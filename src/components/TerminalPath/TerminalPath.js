@@ -29,13 +29,21 @@ function TerminalPath() {
               onHoverFunction("a/");
             }}
             >About Me</a>
-          <a href="/" 
+          <a href="/front_end" 
             className="nav_link" 
-            key="nav_link_fontend"
+            id="nav_link_frontend" 
+            key="nav_link_frontend"
+            onFocus={() => {
+              onHoverFunction("front_end/");
+            }}
             >Front-End</a>
-          <a href="/" 
+          <a href="/back_end" 
             className="nav_link" 
+            id="nav_link_backend" 
             key="nav_link_backend"
+            onFocus={() => {
+              onHoverFunction("back_end/");
+            }}
             >Back-End</a>
         </div>
       </div>
