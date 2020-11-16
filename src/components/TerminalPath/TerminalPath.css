@@ -8,27 +8,6 @@
   position: relative;
 }
 
-.arrow {
-  border: solid rgb(255, 252, 252);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
-
-.start_symbol .arrow {
-  position: absolute;
-  top: 2rem;
-  left: 0px;
-}
-
-.sign {
-  color: white;
-  position: absolute;
-  top: 3rem;
-  left: 0px;
+.terminal_path .start_symbol span{
+  cursor: pointer;
 }
