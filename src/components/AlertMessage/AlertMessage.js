@@ -4,10 +4,13 @@ import './AlertMessage.css';
 function AlertMessage(props) {
   const { children } = props;
   return(
-    <div className="alert" id="laert_startclick" onClick={() => {
-      document.getElementById("laert_startclick").style.display = "none";
-    }}>
+    <div className="alert" id="alert_startclick">
       <i className="arrow"></i>
+      <span className="closebtn" 
+        onClick={() => {
+          document.getElementById("alert_startclick").style.display = "none";
+        }}
+      >&times;</span>
       <div className="message">{children}</div>
     </div>
   );
