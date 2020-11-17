@@ -1,11 +1,11 @@
 .App {
-  background-color: #111D2C;
+  background-color: rgb(17, 29, 44);
 }
 /* Nav css */
 nav {
   position: fixed;
   width: 100%;
-  z-index: 9;
+  z-index: 8;
   background-color: inherit;
   padding-bottom: 1rem;
   border-bottom: 1px solid rgb(255, 99, 71);
@@ -19,7 +19,7 @@ nav {
 
 /* BodyContent css */
 .body_content {
-  padding-top: 5rem;
+  padding-top: 3rem;
   position: relative;
   min-height: 512px;
   color: #ddd;

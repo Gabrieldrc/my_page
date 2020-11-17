@@ -1,6 +1,7 @@
 .body_content {
-  width: 1000px;
-  margin: auto;
+  /* width: 1000px;
+  margin: auto; */
+  z-index: 1;
 }
 
 /* LeftMenu css */
@@ -38,9 +39,18 @@
 
 /* ContentBox css */
 .content_box {
-  width: inherit;
-  min-height: inherit;
-  /* background-color: ivory; */
+  width: 1000px;
+  margin: 2rem auto;
+  z-index: 3;
+}
+
+/* Transparent Image css */
+.transparent_image {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 500px;
+  background: linear-gradient(to bottom,  rgb(17, 29, 44) 50%,  rgba(1, 30, 66, 0.1)), url("../../images/wallpaper.jpg");
 }
 
 /* ScreenContainer css  */
