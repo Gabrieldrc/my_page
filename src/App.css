@@ -3,7 +3,12 @@
 }
 /* Nav css */
 nav {
-  /* background-color: rgba(43, 138, 255, 0.2) */
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  background-color: inherit;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(255, 99, 71);
 }
 
 .nav_content {
@@ -14,8 +19,8 @@ nav {
 
 /* BodyContent css */
 .body_content {
+  padding-top: 5rem;
   position: relative;
-  /* background-color: darkblue; */
   min-height: 512px;
   color: #ddd;
 }
