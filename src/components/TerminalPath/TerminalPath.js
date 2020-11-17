@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './TerminalPath.css';
 import { useLocation } from 'react-router-dom'
 import AlertMessage from '../AlertMessage/AlertMessage';
+import LoadLink from '../LoadLink/LoadLink';
 
 function TerminalPath() {
   const location = useLocation();
@@ -21,30 +22,10 @@ function TerminalPath() {
           }
         }()}
         <div className="nav_dropdown_content">
-          <a href="/a" 
-            className="nav_link" 
-            id="nav_link_aboutme" 
-            key="nav_link_aboutme" 
-            onFocus={() => {
-              onHoverFunction("a/");
-            }}
-            >About Me</a>
-          <a href="/front_end" 
-            className="nav_link" 
-            id="nav_link_frontend" 
-            key="nav_link_frontend"
-            onFocus={() => {
-              onHoverFunction("front_end/");
-            }}
-            >Front-End</a>
-          <a href="/back_end" 
-            className="nav_link" 
-            id="nav_link_backend" 
-            key="nav_link_backend"
-            onFocus={() => {
-              onHoverFunction("back_end/");
-            }}
-            >Back-End</a>
+          <LoadLink href="/">Home</LoadLink>
+          <LoadLink href="/a">About Me</LoadLink>
+          <LoadLink href="/front_end">Front-End</LoadLink>
+          <LoadLink href="/back_end">Back-End</LoadLink>
         </div>
       </div>
     </div>
