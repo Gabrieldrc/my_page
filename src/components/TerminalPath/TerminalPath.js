@@ -18,7 +18,7 @@ function TerminalPath() {
         <p>$ {command}</p>
         {function showAlert() {
           if (location.pathname === "/") {
-            return<AlertMessage>Click "$"</AlertMessage>;
+            return<AlertMessage>Click "$" to navigate</AlertMessage>;
           }
         }()}
         <div className="nav_dropdown_content">
