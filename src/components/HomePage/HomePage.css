@@ -31,6 +31,18 @@
   color: rgb(47, 218, 255);
 }
 
+.content_box .underline_text {
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, rgb(255, 99, 71) 0%, rgb(255, 144, 124) 100%);
+  border-image-slice: 1;
+}
+
+.content_box .start_title {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
 /* ScreenContainer css  */
 .screens_container {
   display: flex;

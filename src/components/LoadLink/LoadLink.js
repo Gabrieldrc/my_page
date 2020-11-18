@@ -13,6 +13,7 @@ function LoadLink(props) {
     width: widthState + "%",
     backgroundColor: "rgb(255, 99, 71)",
     height: "inherit",
+    zIndex: "2",
   };
   function loadEffect() {
     if (i === 0) {

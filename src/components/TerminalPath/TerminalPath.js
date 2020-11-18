@@ -24,9 +24,9 @@ function TerminalPath() {
         }()}
         <div className="nav_dropdown_content">
           <LoadLink href="/">Home</LoadLink>
-          <LoadLink href="/a">About Me</LoadLink>
-          <LoadLink href="/front_end">Front-End</LoadLink>
-          <LoadLink href="/back_end">Back-End</LoadLink>
+          <LoadLink href="/about_me">About Me</LoadLink>
+          <LoadLink href="/my_projects">Projects</LoadLink>
+          <LoadLink href="/skills">Skills</LoadLink>
         </div>
       </div>
     </div>
