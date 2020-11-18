@@ -2,22 +2,24 @@ import React from 'react';
 import './HomePage.css';
 
 import CodeScreen from '../CodeScreen/CodeScreen';
+import Title from '../Title/Title';
 
 function HomePage() {
   return(
     <div className="body_content">
-      {/* <div className="left_menu" id="left_menu">
-        <a href="/a" className="nav_link" key="nav_link_aboutme">About Me</a>
-        <a href="/" className="nav_link" key="nav_link_fontend">Front-End</a>
-        <a href="/" className="nav_link" key="nav_link_backend">Back-End</a>
-      </div> */}
       <div src="./images/wallpaper.jpg" alt="transparent_image" className="transparent_image">
       </div>
       <div className="content_box">
-        <div>
-          <p>Welcome.</p>
-          <p>This is your terminal, just select where you want to go.</p>
-        </div>
+        <Title>Welcome</Title>
+        <p>This is me, <span className="highlight_text">Gabriel Rodriguez</span>, and this is my dynamic terminal. Here i'll show you who i am .</p>
+        <p>As you can see, This is like a linux terminal. Travel around the carpets by clicking in the nav above (at the "$" sign). 
+           There you'll find:
+        </p>
+        <ul>
+          <li>Home (where you are now)</li>
+          <li>About Me</li>
+          <li>About Me</li>
+        </ul>
         {/* <div className="screens_container">
           <CodeScreen />
           <div className="screen render_screen">

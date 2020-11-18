@@ -12,8 +12,9 @@ function TerminalPath() {
   };
   return(
     <div className="terminal_path">
-      <span style={{color: "#0EE109"}}>@GABRIELRODRIGUEZ</span>:
-      <span style={{color: "#2FDAFF"}}>{location.pathname}</span>
+      <span style={{color: "#0EE109"}}>@GABRIELRODRIGUEZ</span>
+      <span style={{color: "white"}}>:</span>
+      <span style={{color: "rgb(47, 218, 255)"}}>{location.pathname}</span>
       <div className="nav_menu">
         <p>$ {command}</p>
         {function showAlert() {
