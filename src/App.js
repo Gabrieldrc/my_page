@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import TerminalPath from './components/TerminalPath/TerminalPath';
 import HomePage from './components/HomePage/HomePage';
+import SkillsPage from './components/SkillsPage/SkillsPage';
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
           </div>
         </nav>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <HomePage />
+          </Route>
+          <Route exact path="/skills">
+            <SkillsPage />
           </Route>
         </Switch>
         <footer>
