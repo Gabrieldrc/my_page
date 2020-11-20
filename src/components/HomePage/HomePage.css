@@ -1,12 +1,7 @@
 /* ContentBox css */
 .content_box {
-  width: 1000px;
   height: 350px;
   margin: auto;
-  padding: 0.5rem 1rem;
-  z-index: 3;
-  background-color: rgb(47, 218, 255, 0.15);
-  border: 1px solid rgb(47, 218, 255);
 }
 
 /* Transparent Image css */
