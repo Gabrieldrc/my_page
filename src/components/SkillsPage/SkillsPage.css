@@ -3,16 +3,6 @@
   min-width: 100vh;
 }
 
-section {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  scroll-snap-align: start;
-  text-align: center;
-  position: relative;
-  /* background-color: thistle; */
-}
-
 /* ContentBox css */
 /* .content_box {
   height: fit-content;
@@ -46,6 +36,25 @@ section {
   font-weight: 300;
   text-align: center;
 }
+
+/* Logos */
+section .logo {
+  width: 105px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-size: contain;
+}
+#html5_logo {
+  background-image: url(../../images/html5.logo.svg);
+}
+#css3_logo {
+  background-image: url(../../images/css3.logo.svg);
+}
+#reactjs_logo {
+  background-image: url(../../images/reactjs.logo.svg);
+}
+
 
 /* ScreenContainer css  */
 .screens_container {
