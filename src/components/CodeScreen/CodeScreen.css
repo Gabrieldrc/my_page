@@ -1,8 +1,14 @@
 /* CodeScreen css */
 .code_screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   background-color: rgb(31, 31, 31);
   padding-left: 1rem;
   padding-top: 1rem;
 }
-  
-  
+
+.code_screen .line {
+  display: flex;
+  justify-content: flex-start;
+}

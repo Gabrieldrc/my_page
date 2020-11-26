@@ -7,6 +7,7 @@ import {
 import TerminalPath from './components/TerminalPath/TerminalPath';
 import HomePage from './components/HomePage/HomePage';
 import SkillsPage from './components/SkillsPage/SkillsPage';
+import WorkSample from './components/WorkSample/WorkSample';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route exact path="/skills">
             <SkillsPage />
+          </Route>
+          <Route exact path="/my_projects">
+            <WorkSample />
           </Route>
         </Switch>
         <footer>

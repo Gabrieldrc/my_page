@@ -52,39 +52,30 @@ section .scroll_section:hover {
 
 /* Logos */
 section .logo {
-  width: 105px;
-  height: 150px;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-size: contain;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
-#html5_logo {
-  background-image: url(../../images/html5.logo.svg);
-}
-#css3_logo {
-  background-image: url(../../images/css3.logo.svg);
-}
-#reactjs_logo {
-  background-image: url(../../images/reactjs.logo.svg);
-}
-
 
 /* ScreenContainer css  */
 .screens_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
-  /* background-color: lightcoral; */
-  height: 500px;
+  width: inherit;
+  height: fit-content;
+  margin: auto;
 }
 
 .screen {
   width: 450px;
-  height: 300px;
+  height: 250px;
   margin: auto;
+  overflow: auto;
 }
 
 /* RenderScreen css */
 .render_screen {
-  background-color: lawngreen;
+  background-color: rgba(245, 245, 245, 0.9);
 }

@@ -31,23 +31,3 @@
   font-weight: 300;
   text-align: center;
 }
-
-/* ScreenContainer css  */
-.screens_container {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  /* background-color: lightcoral; */
-  height: 500px;
-}
-
-.screen {
-  width: 450px;
-  height: 300px;
-  margin: auto;
-}
-
-/* RenderScreen css */
-.render_screen {
-  background-color: lawngreen;
-}
