@@ -1,7 +1,6 @@
 import React from 'react';
 import './HomePage.css';
 
-import CodeScreen from '../CodeScreen/CodeScreen';
 import Title from '../Title/Title';
 import ContentBox from '../ContentBox/ContentBox';
 
@@ -24,12 +23,6 @@ function HomePage() {
             <li>Skills</li>
           </ul>
           <h3 className="start_title">SO START THEN</h3>
-          {/* <div className="screens_container">
-            <CodeScreen />
-            <div className="screen render_screen">
-
-            </div>
-          </div> */}
         </ContentBox>
       </section>
     </div>
