@@ -1,0 +1,17 @@
+# Query: class=
+# ContextLines: 1
+
+6 results - 1 file
+
+src/App.js:
+   9            <ul>
+  10:             <a href="" className="nav_link" key="nav_link_aboutme">About Me</a>
+  11:             <a href="" className="nav_link" key="nav_link_fontend">Front-End</a>
+  12:             <a href="" className="nav_link" key="nav_link_backend">Back-End</a>
+  13            </ul>
+
+  17          <div className="left_menu" id="left_menu">
+  18:           <a href="" className="nav_link" key="nav_link_aboutme">About Me</a>
+  19:           <a href="" className="nav_link" key="nav_link_fontend">Front-End</a>
+  20:           <a href="" className="nav_link" key="nav_link_backend">Back-End</a>
+  21          </div>

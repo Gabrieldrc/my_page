@@ -1,0 +1,53 @@
+/* ContentBox css */
+.content_box {
+  height: 350px;
+  margin: auto;
+}
+
+/* Transparent Image css */
+.transparent_image {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  min-height: inherit;
+  background: radial-gradient(closest-corner at 60% 65%,  rgba(1, 30, 66, 0.9),  rgb(17, 29, 44, 1) 70%, rgb(10, 18, 27)), url("../../images/wallpaper.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* Extras css */
+.content_box .highlight_text {
+  color: rgb(47, 218, 255);
+}
+
+.content_box .underline_text {
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, rgb(255, 99, 71) 0%, rgb(255, 144, 124) 100%);
+  border-image-slice: 1;
+}
+
+.content_box .start_title {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* ScreenContainer css  */
+.screens_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* background-color: lightcoral; */
+  height: 500px;
+}
+
+.screen {
+  width: 450px;
+  height: 300px;
+  margin: auto;
+}
+
+/* RenderScreen css */
+.render_screen {
+  background-color: lawngreen;
+}

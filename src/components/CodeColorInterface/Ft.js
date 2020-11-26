@@ -1,13 +1,13 @@
 import React from 'react';
 
-//parth
-function Pt(props) {
+//function word
+function Ft(props) {
   const { children } = props;
   return (
-    <span style={{color: "rgb(187, 76, 25)"}}>
+    <span style={{color: "rgb(246, 246, 0)"}}>
       {children}
     </span>
   );
 }
 
-export default Pt;
+export default Ft;

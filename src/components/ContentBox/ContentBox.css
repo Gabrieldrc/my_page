@@ -1,0 +1,18 @@
+.content_box {
+  width: 1000px;
+  height: 350px;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  z-index: 3;
+  background-color: rgb(47, 218, 255, 0.15);
+  border: 1px solid rgb(47, 218, 255);
+  animation-name: displaying_box;
+  animation-duration: 1.5s;
+}
+
+@keyframes displaying_box {
+  0%   {width: 0px; height: 5px;}
+  30%  {width: 1000px; height: 5px;}
+  90%  {width: 1000px; height: 350px;}
+  100%  {width: 1000px; height: 350px;}
+}

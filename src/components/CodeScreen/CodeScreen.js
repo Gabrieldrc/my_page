@@ -1,15 +1,20 @@
 import React from 'react';
 import './CodeScreen.css';
 
-import RW from './CodeColorInterface/RW';
-import Vb from './CodeColorInterface/Vb';
-import Pt from './CodeColorInterface/Pt';
+import Line from '../CodeColorInterface/Line';
+import ReactSampleString from '../CodeSamples/ReactSampleString';
+import ColorWordsLine from './ColorWordsLine';
 
 function CodeScreen() {
+  const ReactSampleArray = ReactSampleString.split("\n");
   return (
     <div className="screen code_screen">
       <div className="code_line">
-        <span className="number_line">1</span>  <RW>import</RW> <Vb>React</Vb> <RW>from</RW> <Pt>'react'</Pt>
+        {
+          ReactSampleArray.map((lineString, index) => {
+            return <div key={"code_line_"+index}><Line>{(index+1)}</Line><ColorWordsLine key={"colorwordline_index_"+index}>{lineString}</ColorWordsLine></div>;
+          })
+        }
       </div>
     </div>
   );

@@ -1,0 +1,41 @@
+.terminal_path {
+  margin-top: 20px;
+  margin-left: 100px;
+  height: 2rem;
+}
+
+.terminal_path .nav_menu {
+  position: relative;
+  display: inline-block;
+  min-width: 160px;
+}
+
+.terminal_path .nav_menu p{
+  color: white;
+  cursor: pointer;
+  display: inline;
+  transition: border-bottom 50ms ease-in-out,
+    background-color 50ms ease-in-out,
+    color 50ms ease-in-out;
+}
+
+.terminal_path .nav_menu:hover{
+  color: rgb(192, 235, 255);
+  background-color: rgba(0, 112, 163, 0.5);
+  border-left: 2px solid rgb(0, 174, 255);
+}
+
+.terminal_path .nav_menu .nav_dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 112, 163, 1);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 112, 163, 0.4);
+  z-index: 1;
+  transition: display 0s linear 0.5s,
+    color 0.5s ease-in 0.5s;
+}
+
+.terminal_path .nav_menu:hover .nav_dropdown_content {
+  display: block;
+}

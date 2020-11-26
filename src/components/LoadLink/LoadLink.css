@@ -1,0 +1,20 @@
+.nav_link {
+  display: flex;
+  position: relative;
+  width: 160px;
+  color:  white;
+  text-decoration: none;
+  height: 3rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav_link:hover {
+  background-color: rgb(0, 153, 255);
+}
+
+.nav_link span {  
+  text-align: center;
+  z-index: 3;
+  margin: auto;
+}
