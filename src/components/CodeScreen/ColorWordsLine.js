@@ -7,6 +7,7 @@ import DkB from '../CodeColorInterface/DkB';
 import Ft from '../CodeColorInterface/Ft';
 import Pt from '../CodeColorInterface/Pt';
 import Vb from '../CodeColorInterface/Vb';
+import Txt from '../CodeColorInterface/Txt';
 
 function ColorWordsLine(props) {
   const lineUnColored = props.children;
@@ -29,16 +30,21 @@ function ColorWordsLine(props) {
         lineColored.push(<Sp/>)
       } else if (string[i].match(/[A-z]/g) != null) {
         word += string[i];
-        if (string[i+1].match(/[ \W]/g)) {
-          if (reservedWords.nodeJS.includes(word)) {
-            lineColored.push(<RW>{word}</RW>);
-          } else if (reservedWords.jS.includes(word) || reservedWords.html.includes(word)) {
-            lineColored.push(<DkB>{word}</DkB>);
-          } else if (string[i+1].match(/\(/g)) {
-            lineColored.push(<Ft>{word}</Ft>);
-          } else {
-            lineColored.push(<Vb>{word}</Vb>);
+        if (i + 1 < string.length) {
+          if (string[i+1].match(/[ \W]/g)) {
+            if (reservedWords.nodeJS.includes(word)) {
+              lineColored.push(<RW>{word}</RW>);
+            } else if (reservedWords.jS.includes(word) || reservedWords.html.includes(word)) {
+              lineColored.push(<DkB>{word}</DkB>);
+            } else if (string[i+1].match(/\(/g)) {
+              lineColored.push(<Ft>{word}</Ft>);
+            } else {
+              lineColored.push(<Vb>{word}</Vb>);
+            }
+            word = "";
           }
+        } else {
+          lineColored.push(<Txt>{word}</Txt>);
           word = "";
         }
       } else {

@@ -1,5 +1,6 @@
 const HtmlSampleString = 
-  "<div>';"
+  "<div id=\"un_id\">';\n"
+  +"  heyasdfasdfasd\n"
 ;
 
 export default HtmlSampleString;

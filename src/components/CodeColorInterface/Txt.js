@@ -1,13 +1,13 @@
 import React from 'react';
 
-//path
-function Pt(props) {
+//Text word
+function Txt(props) {
   const { children } = props;
   return (
-    <span style={{color: "rgb(255, 107, 39)"}}>
+    <span style={{color: " white"}}>
       {children}
     </span>
   );
 }
 
-export default Pt;
+export default Txt;
