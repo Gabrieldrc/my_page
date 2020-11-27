@@ -1,0 +1,12 @@
+#frontend_resume_box {
+  color: white;
+  margin: auto;
+}
+
+#frontend_resume_box div{
+  color: white;
+  margin: auto;
+  background-color: green;
+  width: 300px;
+  height: 400px;
+}

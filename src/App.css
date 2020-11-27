@@ -1,11 +1,16 @@
 /* Nav css */
 nav {
+  margin-top: -2.6rem;
   position: fixed;
   width: 100%;
   z-index: 8;
   background-color: rgb(17, 29, 44);
-  padding-bottom: 1rem;
-  border-bottom: 1px solid rgb(255, 99, 71);
+  border-bottom: 5px solid rgb(255, 99, 71);
+  transition: margin-top 0.4s ease-in-out;
+}
+
+nav:hover {
+  margin-top: 0rem;
 }
 
 .nav_content {
